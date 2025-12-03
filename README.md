@@ -110,6 +110,6 @@ geopy, psycopg2, pandas, sqlalchemy, dbt-core, apache-airflow
 
 ## 👤 Author
 Diu Nguyen
-Fresher Data Engineer / Full Stack Developer
+Data Engineer | Full Stack Developer
 
 
