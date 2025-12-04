@@ -1,5 +1,5 @@
-# 🇻🇳 VN-Drugs-Analytics
-VN-Drugs-Analytics is an end-to-end data analytics pipeline for pharmaceutical registrations in Vietnam. The project utilizes Airflow, PostgreSQL, dbt, and Apache Superset to:
+# 💊 Real-Time Vietnam Pharma Analytics Pipeline with Airflow, dbt & Superset
+This project is an end-to-end data analytics pipeline for pharmaceutical registrations in Vietnam. The project utilizes Airflow, PostgreSQL, dbt, and Apache Superset to:
 
 Schedule and automate data extraction and transformation tasks.
 
