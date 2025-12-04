@@ -1,13 +1,17 @@
 # 💊 Real-Time Vietnam Pharma Analytics Pipeline with Airflow, dbt & Superset
-This project is an end-to-end data analytics pipeline for pharmaceutical registrations in Vietnam. The project utilizes Airflow, PostgreSQL, dbt, and Apache Superset to:
+This project is an end-to-end data analytics pipeline for pharmaceutical registrations in Vietnam. The pipeline builds upon the realtime healthcare data ingestion project ([realtime-healthcare-data-pipeline
+](https://github.com/DiuNH1710/realtime-healthcare-data-pipeline)) and leverages the crawled data from the official Vietnamese pharmaceutical portal:  https://dichvucong.dav.gov.vn/congbothuoc/index
 
-Schedule and automate data extraction and transformation tasks.
 
-Enrich data by geocoding manufacturing addresses (adding latitude & longitude).
+After storing the realtime crawled data in PostgreSQL, this pipeline:
 
-Perform analytical queries using dbt models.
+Automates extraction and transformation tasks with Airflow.
 
-Visualize insights on Superset dashboards.
+Enriches data by geocoding manufacturing addresses (adding latitude & longitude).
+
+Performs analytical queries using dbt models.
+
+Visualizes insights with Apache Superset dashboards, including trends over time, top manufacturers, and geographic distributions.
 
 ## 🏗️ System Architecture
 ![alt text](image.png)
